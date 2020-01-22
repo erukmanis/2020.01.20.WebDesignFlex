@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css?family=Satisfy&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.back {
+  background: url(pilseta-min.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.nav-link,
+.letterfirst,
+.lettersecond,
+.countstext,
+.enquiretext,
+h1,
+h2 {
+  color: white;
+}
+
+.letterfirst {
+  font-family: "Satisfy", sans-serif;
+  font-size: 3em;
+}
+
+h1 {
+  font-size: 7em;
+}
+
+.title {
+  font-family: "Satisfy", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  margin: 50px 0px 20px 0px;
+}
+
+.textsmall {
+  font-size: 0.8em;
+}
+
+.logo {
+  border: solid white 3px;
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/* svg {
+  padding-top: 20px;
+  padding-bottom: 0px;
+} */
+
+.names {
+  font-weight: bolder;
+  line-height: 50px;
+}
+
+.clicks,
+.benefits {
+  text-align: center;
+  margin: 50px 0px 50px 0px;
+}
+
+.countstext {
+  font-size: 3em;
+  font-weight: 50;
+  align-self: flex-start;
+}
+
+.btnmargin {
+  margin: 50px 0px 50px 0px;
+}
+
+.btnwhite {
+  color: white;
+  border: white solid 1px;
+}
+
+.h100vh {
+  height: 100vh;
+}
+
+.h90vh {
+  height: 90vh;
+}
+.pad100 {
+  padding-top: 100px;
+}
+
+.h50vh {
+  /* height: 50vh; */
+}
+
+.greenfont {
+  color: green;
+  font-size: 1em;
+  margin: 100px 0px 30px 0px;
+}
+
+.pic1 {
+  background: url(south-america_mini.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.pic2 {
+  background: url(central-america_mini.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.pic3 {
+  background: url(antarctica_mini.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.h336 {
+  height: 336px;
+  display: flex;
+}
+
+.h300px {
+  height: 300px;
+}
+
+.backmid {
+  background: url(group-expeditions-bg-min.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.benefits {
+  min-width: 220px;
+}
+
+.imgmount {
+  background: url(homepage-about-us-bg.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.backdown {
+  background: url(homepage-custom-tours-bg_mini.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.backblack {
+  background-color: black;
+}
+
+.southam1 {
+  background: url(By-FOTOGRIN-shutterstock-710456194-1000.jpg) center no-repeat;
+  background-size: cover;
+}
+.southam2 {
+  background: url(By-Aleksandra-H.-Kossowska-shutterstock-298363703-800.jpg)
+    center no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+.southam3 {
+  background: url(gustavo-ramirez-shutterstock-765561112-coffee-800.jpg) center
+    no-repeat;
+  background-size: cover;
+}
+.southam4 {
+  background: url(Joe-Tabacca-shutterstock-800.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.backdarkgreen {
+  background-color: rgb(0, 26, 0);
+}
+
+.backgrey {
+  background-color: rgb(216, 215, 215);
+}
