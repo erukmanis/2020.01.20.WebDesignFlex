@@ -16,6 +16,9 @@ body {
 .lettersecond,
 .countstext,
 .enquiretext,
+.connect,
+.textboxone,
+.textboxthree,
 h1,
 h2 {
   color: white;
@@ -93,8 +96,9 @@ h1 {
   padding-top: 100px;
 }
 
-.h50vh {
-  /* height: 50vh; */
+.h40vh {
+  height: 40vh;
+  min-height: 500px;
 }
 
 .greenfont {
@@ -121,10 +125,6 @@ h1 {
 .h336 {
   height: 336px;
   display: flex;
-}
-
-.h300px {
-  height: 300px;
 }
 
 .backmid {
@@ -154,20 +154,54 @@ h1 {
   background: url(By-FOTOGRIN-shutterstock-710456194-1000.jpg) center no-repeat;
   background-size: cover;
 }
-.southam2 {
+/* .southam2 {
   background: url(By-Aleksandra-H.-Kossowska-shutterstock-298363703-800.jpg)
     center no-repeat;
   background-size: cover;
   height: 200px;
+} */
+
+.southam2,
+.southam4 {
+  background-color: white;
 }
+
+.southam1,
+.southam2,
+.southam3,
+.southam4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.textboxone,
+.textboxthree {
+  align-self: flex-end;
+}
+
+.picbtn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.southampictop2 {
+  background: url(By-Aleksandra-H.-Kossowska-shutterstock-298363703-800.jpg)
+    center no-repeat;
+  background-size: cover;
+  height: 50%;
+  margin: 0px -15px 0 -15px;
+}
+
 .southam3 {
   background: url(gustavo-ramirez-shutterstock-765561112-coffee-800.jpg) center
     no-repeat;
   background-size: cover;
 }
-.southam4 {
+.southampictop4 {
   background: url(Joe-Tabacca-shutterstock-800.jpg) center no-repeat;
   background-size: cover;
+  height: 40%;
+  margin: 0 -15px 0 -15px;
 }
 
 .backdarkgreen {
@@ -176,4 +210,8 @@ h1 {
 
 .backgrey {
   background-color: rgb(216, 215, 215);
+}
+
+.pd20px {
+  padding: 20px;
 }
